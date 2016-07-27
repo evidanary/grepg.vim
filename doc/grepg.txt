@@ -1,0 +1,10 @@
+*grepg.txt*   Plugin that integrates grepg with Vim
+
+==============================================================================
+INTRODUCTION                                                               *G*
+
+This plugin is a front for grepg. grepg is a commandline tool for GrepPage.
+https://www.greppage.com
+grepg can be used to search your greppage content.
+You will run grepg from vim, and this plugin will show the results in a split window.
+
