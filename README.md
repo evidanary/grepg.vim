@@ -3,6 +3,8 @@
 This plugin is a front for [grepg](https://github.com/tejal29/grepg). grepg is a commandline tool for [GrepPage](https://www.greppage.com).  grepg can
 be used to search your greppage content. You will run grepg from vim, and this plugin will show the results in a split window.
 
+![](http://i.imgur.com/Aa0X62y.png)
+
 ## Installation ##
 
 See [grepg's README](https://github.com/tejal29/grepg) for its installation instructions (if you haven't installed it already).
