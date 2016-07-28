@@ -28,10 +28,11 @@ cd ~/.vim/bundle && git clone https://github.com/evidanary/grepg.vim grepg && ec
 Make sure the grepg client works correctly
 
 ```sh
-$ grepg -u evidanary -t vim -s "replay macro"
+$ grepg --user evidanary --topic vim --search "replay macro"
 Replay Macro
 @name of macro e.g. @q
 ```
+To avoid typing --user, set the defaults in the ~/.grepg.yml file (see [grepg's README](https://github.com/tejal29/grepg) for more defaults).
 
 ## Usage ##
 
