@@ -1,7 +1,8 @@
 # grepg.vim #
 
-This plugin is a front for [grepg](https://github.com/tejal29/grepg). grepg is a commandline tool for [GrepPage](https://www.greppage.com).  grepg can
-be used to search your greppage content. You will run grepg from vim, and this plugin will show the results in a split window.
+grepg.vim shows results from [GrepPage](https://www.greppage.com) in a scratch buffer. It saves you from the expensive context switch of opening the browser while programming in Vim.
+
+This plugin is a front for [grepg](https://github.com/tejal29/grepg). grepg is a commandline tool for [GrepPage](https://www.greppage.com).
 
 ![](http://i.imgur.com/wcoDRL8.png)
 
@@ -40,7 +41,7 @@ To avoid typing --user, set the defaults in the ~/.grepg.yml file (see [grepg's 
 
 grepg.vim is triggered by typing :G followed by the topic name (-t argument for grepg) followed by options such as -s (for search string e.g. -s "tmux pane"). The first argument is always the topic name.
 
-Microdocuments containing the search term will be listed in the split window. grepg client returns a description followed by the code on the other line. Each microdocument is separated by an empty line.
+Microdocuments containing the search term will be listed in a scratch buffer. grepg client returns a description followed by the code on the other line. Each microdocument is separated by an empty line.
 
 ### Troubleshooting ###
 
