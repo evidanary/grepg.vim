@@ -10,12 +10,12 @@ This plugin is a front for [grepg](https://github.com/tejal29/grepg). grepg is a
 
 See [grepg's README](https://github.com/tejal29/grepg) for its installation instructions (if you haven't installed it already).
 
-Vim has various ways of installing plugins, the standard way is in [the documentation](http://vimdoc.sourceforge.net/htmldoc/usr_05.html#plugin), but most people use a plugin to manage their plugins. If you don't already have a preferred plugin mangrepger plugin, why not try one of the following?
+Most people use a plugin to manage their vim plugins. I prefer [vim-pathogen](https://github.com/tpope/vim-pathogen#readme). Installation is dead simple, you just need 2 lines in your .vimrc. Here are some other plugin managers:
 
 - [vim-plug](https://github.com/junegunn/vim-plug#readme)
-- [vim-pathogen](https://github.com/tpope/vim-pathogen#readme)
 - [Vundle.vim](https://github.com/gmarik/Vundle.vim#readme)
-- Or, if you don't use any sort of Vim plugin manager:
+
+Or, if you don't use any sort of Vim plugin manager:
 
 ```sh
 cd ~/.vim/bundle && git clone https://github.com/evidanary/grepg.vim grepg && echo "set runtimepath^=~/.vim/bundle/grepg" >> ~/.vimrc
