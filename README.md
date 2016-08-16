@@ -6,6 +6,14 @@ This plugin is a front for [grepg](https://github.com/tejal29/grepg). grepg is a
 
 ![](http://i.imgur.com/wcoDRL8.png)
 
+## Usage ##
+
+    :G {topic_name} [options]
+
+grepg.vim is triggered by typing :G followed by the topic name (-t argument for grepg) followed by options such as -s (for search string e.g. -s "tmux pane"). The first argument is always the topic name.
+
+Microdocuments containing the search term will be listed in a scratch buffer. grepg client returns a description followed by the code on the other line. Each microdocument is separated by an empty line.
+
 ## Installation ##
 
 See [grepg's README](https://github.com/tejal29/grepg) for its installation instructions (if you haven't installed it already).
@@ -34,14 +42,6 @@ Replay Macro
 @name of macro e.g. @q
 ```
 To avoid typing --user, set the defaults in the ~/.grepg.yml file (see [grepg's README](https://github.com/tejal29/grepg) for more defaults).
-
-## Usage ##
-
-    :G {topic_name} [options]
-
-grepg.vim is triggered by typing :G followed by the topic name (-t argument for grepg) followed by options such as -s (for search string e.g. -s "tmux pane"). The first argument is always the topic name.
-
-Microdocuments containing the search term will be listed in a scratch buffer. grepg client returns a description followed by the code on the other line. Each microdocument is separated by an empty line.
 
 ### Troubleshooting ###
 
