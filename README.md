@@ -14,6 +14,16 @@ grepg.vim is triggered by typing :G followed by the topic name (-t argument for 
 
 Microdocuments containing the search term will be listed in a scratch buffer. grepg client returns a description followed by the code on the other line. Each microdocument is separated by an empty line.
 
+## Examples ##
+
+    :G markdown -s image
+
+Searches the markdown cheatsheet for string "image".
+
+    :G vim -s "new tab"
+
+Searches the vim cheatsheet for string "new tab". Multi keyword searches should be surrounded with a quote.
+
 ## Installation ##
 
 See [grepg's README](https://github.com/tejal29/grepg) for its installation instructions (if you haven't installed it already).
