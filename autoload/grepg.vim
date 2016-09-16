@@ -2,7 +2,7 @@
 " greppage
 
 function! grepg#RunGrepGCommand(cmdline)
-  let cmdline = 'grepg --no-colorize -t '.a:cmdline
+  let cmdline = 'grepg search --no_colorize '.a:cmdline
   let expanded_cmdline = cmdline
   for part in split(cmdline, ' ')
     if part[0] =~ '\v[%#<]'
