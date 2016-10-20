@@ -16,7 +16,9 @@ function! grepg#AugmentKeywords(cmdline)
   elseif extension ==? "py"
     return a:cmdline." python"
   elseif extension ==? "js"
-    return a:cmdline." javascript"
+    return a:cmdline." js"
+  elseif extension ==? "jsx"
+    return a:cmdline." js"
   endif
 
   return a:cmdline
