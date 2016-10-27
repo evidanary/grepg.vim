@@ -57,3 +57,5 @@ cd ~/.vim/bundle && git clone https://github.com/evidanary/grepg.vim grepg && ec
 
 Make sure the grepg client works correctly. You will need to run `grepg configure` if you need to access private data.
 
+### License ###
+grepg.vim is under the [MIT License](http://www.opensource.org/licenses/MIT).
